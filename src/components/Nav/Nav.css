@@ -1,0 +1,166 @@
+
+.narx-nav {
+  width: 100%;
+  padding: 35px 12%;
+  box-sizing: border-box;
+  color: #19191d;
+}
+
+.xizmatlar {
+  display: flex;
+  justify-content: space-between;
+  gap: 35px;
+  text-align: center;
+}
+
+.xizmat {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.xizmat img {
+  width: 90px;
+  height: 65px;
+  object-fit: contain;
+}
+
+.xizmat h3 {
+  font-size: 16px;
+  margin: 12px 0 15px;
+}
+
+.xizmat p {
+  max-width: 240px;
+  color: #73727d;
+  font-size: 11px;
+  line-height: 1.7;
+}
+
+.narx-bolim {
+  padding-top: 75px;
+}
+
+.narx-sarlavha {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  margin-bottom: 55px;
+}
+
+.narx-sarlavha h2 {
+  font-size: 38px;
+  line-height: 1.25;
+  letter-spacing: -1.5px;
+  margin: 0;
+}
+
+.tarif-tanlash {
+  display: flex;
+  padding: 4px;
+  background: #f6f6fa;
+  border-radius: 9px;
+  min-width: 228px;
+}
+
+.tarif-tanlash button {
+  width: 50%;
+  height: 36px;
+  border: none;
+  border-radius: 6px;
+  background: transparent;
+  color: #19191d;
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.tarif-tanlash button.tanlangan {
+  background: #5752d9;
+  color: white;
+}
+
+.tariflar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.tarif {
+  flex: 1;
+  min-width: 0;
+  min-height: 298px;
+  box-sizing: border-box;
+  padding: 25px 16px 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f7f7f8;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.tarif-nomi {
+  color: #73727d;
+  font-size: 11px;
+  margin: 0 0 15px;
+}
+
+.tarif-narxi {
+  color: #202c43;
+  font-size: 38px;
+  letter-spacing: -1px;
+  margin: 0 0 18px;
+  white-space: nowrap;
+}
+
+.tarif-narxi span {
+  font-size: 16px;
+  letter-spacing: -0.5px;
+}
+
+.tarif-xususiyatlar {
+  width: 100%;
+  flex: 1;
+}
+
+.tarif-xususiyatlar p {
+  color: #73727d;
+  font-size: 11px;
+  line-height: 1.5;
+  margin: 12px 0;
+}
+
+.tarif-btn {
+  width: 100%;
+  min-height: 42px;
+  border: 1px solid #ececf1;
+  border-radius: 8px;
+  background: white;
+  color: #5752d9;
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.tarif.premium {
+  min-height: 320px;
+  padding-top: 35px;
+  padding-bottom: 28px;
+  background: #ff704b;
+  color: white;
+}
+
+.premium .tarif-nomi,
+.premium .tarif-xususiyatlar p,
+.premium .tarif-narxi {
+  color: white;
+}
+
+.premium .tarif-btn {
+  background: #a93616;
+  border-color: #a93616;
+  color: white;
+}
